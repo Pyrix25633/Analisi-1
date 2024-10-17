@@ -1,4 +1,10 @@
-### Proposizioni
+
+--- start-multi-column: ID_zj7h
+```column-settings
+Number of Columns: 3
+Largest Column: standard
+Border: off
+```
 
 | $P$ | $Q$ | $P\implies Q$ |
 | --- | --- | ------------- |
@@ -13,12 +19,6 @@
 | V   | F   | F         |
 | F   | V   | F         |
 | F   | F   | V         |
-
-### Sin e cos
-| $\theta$     | $0$ | $\frac{\pi}{6}$      | $\frac{\pi}{4}$      | $\frac{\pi}{3}$      | $\frac{\pi}{2}$ |
-| ------------ | --- | -------------------- | -------------------- | -------------------- | --------------- |
-| $\sin\theta$ | $0$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $1$             |
-| $\cos\theta$ | $1$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $0$             |
 ### Disuguaglianza triangolare
 $\forall x_{1}, x_{2} \in \mathbb{R} \space \mid x_{1} + x_{2} \mid \space \leq \space \mid x_{1} \mid + \mid x_{2} \mid$
 ### Trasformazioni di funzioni
@@ -35,6 +35,19 @@ $\forall x_{1}, x_{2} \in \mathbb{R} \space \mid x_{1} + x_{2} \mid \space \leq 
 - Riscalamento orizzontale: $f(k\cdot x)$
 	- dilatazione se $0<k<1$
 	- compressione se $k>1$
+### Fattoriale
+$n! := 1\cdot 2\cdot 3\cdot {\dots} \cdot n$
+Proprietà:
+- $n! = n\cdot(n-1)!$
+- $$\begin{flalign} \frac{n!}{(n-k)!}=n\cdot (n-1)\cdot {\dots}\cdot (n-k+1) &&\end{flalign}$$
+
+--- column-break ---
+
+| $\theta$     | $0$ | $\frac{\pi}{6}$      | $\frac{\pi}{4}$      | $\frac{\pi}{3}$      | $\frac{\pi}{2}$ |
+| ------------ | --- | -------------------- | -------------------- | -------------------- | --------------- |
+| $\sin\theta$ | $0$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $1$             |
+| $\cos\theta$ | $1$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $0$             |
+
 ### Numeri complessi
 - Forme:
 	- Cartesiana: $z=x+yi$
@@ -65,11 +78,9 @@ $\forall x_{1}, x_{2} \in \mathbb{R} \space \mid x_{1} + x_{2} \mid \space \leq 
 	- $|z+w|\leq |z|+|w|$
 	- $z\cdot\bar{z}=|z|^{2}$
 	- $|z\cdot w|=|z|\cdot |w|$
-### Fattoriale
-$n! := 1\cdot 2\cdot 3\cdot {\dots} \cdot n$
-Proprietà:
-- $n! = n\cdot(n-1)!$
-- $$\begin{flalign} \frac{n!}{(n-k)!}=n\cdot (n-1)\cdot {\dots}\cdot (n-k+1) &&\end{flalign}$$
+
+--- column-break ---
+
 ### Coefficiente binomiale
 $$
 \begin{flalign}
@@ -97,7 +108,7 @@ $$
 $$
 $$
 \begin{flalign}
-\lim_{ n \to +\infty }|a_{n}|=+\infty \implies \lim_{ n \to +\infty }\left( 1+\frac{1}{a_{n}} \right)^{n}=e&&
+\lim_{ n \to +\infty }|a_{n}|=+\infty \implies \lim_{ n \to +\infty }\left( 1+\frac{1}{a_{n}} \right)^{n}=e&&  
 \end{flalign}
 $$
 - Permanenza del segno: $x_{n}\to l>0 \implies \exists \bar{n} : \forall n\geq \bar{n}, \; x_{n}>0$
@@ -107,13 +118,31 @@ $$
 	- $l>1 \implies a_{n}\to +\infty$
 	- $l<1 \implies a_{n}\to 0$
 - Gerarchia di infiniti: $\log_{a}(n); \; n^{\alpha}; \; a^{n}; \; n!; \; n^{n}$
+
+--- end-multi-column
+
+--- start-multi-column: ID_umj3
+```column-settings
+Number of Columns: 3
+Largest Column: standard
+Border: off
+```
+
 ### Limiti notevoli
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{\sin(x)}{x}=1 &&\end{flalign}$$
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{1-\cos(x)}{x^{2}}=\frac{1}{2} &&\end{flalign}$$
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{\tan(x)}{x}=1 &&\end{flalign}$$
+
+--- column-break ---
+
 - $$\begin{flalign}\lim_{ x \to \pm \infty } \left( 1+\frac{1}{x} \right)^{x}=e &&\end{flalign}$$
 - $$\begin{flalign}\lim_{ x \to 0 } (1+x)^{1/x}=e &&\end{flalign}$$
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{\ln(1+x)}{x}=1 &&\end{flalign}$$
+
+--- column-break ---
+
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{e^{x}-1}{x}=1 &&\end{flalign}$$
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{a^{x}-1}{x}=\ln(a) &&\end{flalign}$$
 - $$\begin{flalign}\lim_{ x \to 0 } \frac{(1+x)^{\alpha}-1}{x}=\alpha &&\end{flalign}$$
+
+--- end-multi-column
