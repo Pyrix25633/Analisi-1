@@ -43,3 +43,6 @@ $(x,y)\in\mathrm{Gr}(f) \iff (y,x)\in \mathrm{Gr}(f^{-1})$
 - Strettamente crescente $x_{1} < x_{2} \implies f(x_{1}) < f(x_{2})$
 - Decrescente $x_{1} < x_{2} \implies f(x_{1}) \geq f(x_{2})$
 - Strettamente crescente $x_{1} < x_{2} \implies f(x_{1}) > f(x_{2})$
+
+# Disuguaglianza triangolare
+$\forall x_{1}, x_{2} \in \mathbb{R} \;\;\; |x_{1} + x_{2}| \leq |x_{1}| + |x_{2}|$

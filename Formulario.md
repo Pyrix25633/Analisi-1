@@ -20,7 +20,7 @@
 | $\sin\theta$ | $0$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $1$             |
 | $\cos\theta$ | $1$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $0$             |
 ### Disuguaglianza triangolare
-$\forall x_{1}, x_{2} \in \mathbb{R} \space \mid x_{1} + x_{2} \mid \space \leq \space \mid x_{1} \mid + \mid x_{2} \mid$
+$\forall x_{1}, x_{2} \in \mathbb{R} \;\;\; |x_{1} + x_{2}| \leq |x_{1}| + |x_{2}|$
 ### Trasformazioni di funzioni
 - Riflessione rispetto all'asse delle x: $-f(x)$
 - Riflessione rispetto all'asse delle y: $f(-x)$
@@ -41,7 +41,7 @@ $\forall x_{1}, x_{2} \in \mathbb{R} \space \mid x_{1} + x_{2} \mid \space \leq 
 	- Trigonometrica: $z=|z|(\cos\theta + i\sin\theta)$
 	- Esponenziale: $z=|z| e^{i\theta}$
 - Coniugato: $\bar{z}=x-iy$
-- Modulo: $\mid z \mid = \sqrt{x^{2} + y^{2}}$
+- Modulo: $|z| = \sqrt{x^{2} + y^{2}}$
 - Reciproco: $z^{-1}=\frac{\bar{z}}{|z|}$
 - Somma:
 	- $z_{1}+z_{2}=(x_{1}+x_{2}) + i(y_{1}+y_{2})$
