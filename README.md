@@ -1,2 +1,3 @@
-# Analisi-1
-Appunti di analisi 1
+# Analisi 1
+- [[Linguaggio matematico]]
+- [[Funzioni]]
