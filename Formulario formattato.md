@@ -124,7 +124,7 @@ $$
 $$\begin{flalign}\alpha \in \mathbb{R} \;\;\; \lim_{ n \to +\infty }\left( 1+\frac{\alpha}{a_{n}} \right)^{a_{n}}=e^{\alpha}  &&\end{flalign}$$
 - Permanenza del segno: $x_{n}\to l>0 \implies \exists \bar{n} : \forall n\geq \bar{n} \; x_{n}>0$
 - Confronto: $a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} : \forall n \geq \bar{n} \; a_{n}\leq b_{n} \implies a\leq b$
-- Due carabinieri: $a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} : a_{n}\leq c_{n}\leq b_{n} \implies c_{n} \to l$
+- Due carabinieri: $$\begin{flalign}a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} :\forall n\geq \bar{n}\; a_{n}\leq c_{n}\leq b_{n} \\\implies c_{n} \to l &&\end{flalign}$$
 - Criterio del rapporto: $$\begin{flalign} \forall n \in \mathbb{N}, \; a_{n}>0&&\\ \frac{a_{n+1}}{a_{n}} \to l&& \end{flalign}$$
 	- $l>1 \implies a_{n}\to +\infty$
 	- $l<1 \implies a_{n}\to 0$

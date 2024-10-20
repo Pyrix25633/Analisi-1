@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6df60a3a4d2c6dd1",
+        "id": "fdcb197c2a6c39ba",
         "type": "tabs",
         "children": [
           {
-            "id": "2c3785723e0c4752",
+            "id": "8c542877553c3932",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -163,15 +163,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c3785723e0c4752",
+  "active": "8c542877553c3932",
   "lastOpenFiles": [
     "Formulario.md",
+    "Successioni.md",
+    "Numeri complessi.md",
     "Formulario formattato.md",
     "Formulario formattato.pdf",
     "Linguaggio matematico.md",
-    "Numeri complessi.md",
     "Limiti.md",
-    "Successioni.md",
     "README.md",
     "Funzioni.md",
     "Trasformazioni di funzioni.md",

@@ -92,7 +92,7 @@ $x_{n}\to l>0 \implies \exists \bar{n} : \forall n\geq \bar{n} \; x_{n}>0$
 $a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} : \forall n \geq \bar{n} \; a_{n}\leq b_{n} \implies a\leq b$
 
 ### Due carabinieri:
-$a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} : a_{n}\leq c_{n}\leq b_{n} \implies c_{n} \to l$
+$a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} :\forall n\geq \bar{n}\; a_{n}\leq c_{n}\leq b_{n} \implies c_{n} \to l$
 
 ### Algebra dei limiti finiti
 $a_{n}\to a\in \mathbb{R},\;b_{n}\to b\in \mathbb{R}$
