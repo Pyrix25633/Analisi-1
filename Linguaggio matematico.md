@@ -42,13 +42,13 @@ $A \subset \mathbb{R}, A \neq \emptyset$
 $A \subset \mathbb{R}, A \neq \emptyset$
 - Può non esistere
 - Se esiste è unico
-- $M \in A$ si dice massimo per $A$ se $\forall x \in A \; M \geq x$
-- $m \in A$ si dice minimo per $A$ se $\forall x \in A \; m \leq x$
+- $M \in A$ si dice massimo per $A$ ($M=\mathrm{max}(A)$) se $\forall x \in A \; M \geq x$
+- $m \in A$ si dice minimo per $A$ ($m=\mathrm{min}(A)$) se $\forall x \in A \; m \leq x$
 
 # Estremo
 $A \subset \mathbb{R}, A \neq \emptyset$
-- $\bar{x} \in \mathbb{R}$ si dice estremo superiore di $A$ ($\bar{x}=\sup A$) se è il più piccolo dei maggioranti
-- $\underline{x} \in \mathbb{R}$ si dice estremo superiore di $A$ ($\underline{x}=\inf A$) se è il più piccolo dei maggioranti
+- $\bar{x} \in \mathbb{R}$ si dice estremo superiore di $A$ ($\bar{x}=\sup A$) se è il più piccolo dei maggioranti, ovvero $$\begin{flalign}\begin{cases}\forall x \in A\;\;x\leq \bar{x}\\ \forall\epsilon>0\;\exists x \in A:x-\epsilon<\bar{x}\end{cases} &&\end{flalign}$$
+- $\underline{x} \in \mathbb{R}$ si dice estremo inferiore di $A$ ($\underline{x}=\inf A$) se è il più grande dei minoranti, ovvero $$\begin{flalign}\begin{cases}\forall x \in A\;\;x\geq \underline{x}\\ \forall\epsilon>0\;\exists x \in A:x-\epsilon>\underline{x}\end{cases} &&\end{flalign}$$
 
 # Assioma di completezza di $\mathbb{R}$
 $A \subset \mathbb{R}, A \neq \emptyset$

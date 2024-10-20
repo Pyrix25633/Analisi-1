@@ -19,6 +19,28 @@
 | ------------ | --- | -------------------- | -------------------- | -------------------- | --------------- |
 | $\sin\theta$ | $0$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        | $1$             |
 | $\cos\theta$ | $1$ | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $0$             |
+
+| $\sin(-x)=-\sin(x)$                                 | $\cos(-x)=\cos(x)$                                  | $\tan(-x)=-\tan(x)$                                |
+| --------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------- |
+| $\sin\left( \frac{\pi}{2}\pm x \right)=\mp \cos(x)$ | $\cos\left( \frac{\pi}{2}\pm x \right)=\mp \sin(x)$ | $\tan\left( \frac{\pi}{2}\pm x \right)=\mp\cot(x)$ |
+| $\sin(\pi\pm x)=\mp \sin(x)$                        | $\cos(\pi\pm x)=-\cos(x)$                           | $\tan(\pi\pm x)=\pm \tan(x)$                       |
+
+| $\sin(x\pm y)=\sin(x)\cos(x)\pm \cos(x)\sin(y)$ | $\sin(2x)=2\sin(x)\cos(x)$                           |
+| ----------------------------------------------- | ---------------------------------------------------- |
+| $\cos(x\pm y)=\cos(x)\cos(y)\mp \sin(x)\sin(y)$ | $\cos(2x)=\cos ^{2}(x)-\sin ^{2}(x)=2\sin ^{2}(x)-1$ |
+
+### Massimo e minimo
+$A \subset \mathbb{R}, A \neq \emptyset$
+- Può non esistere
+- Se esiste è unico
+- $M \in A$ si dice massimo per $A$ ($M=\mathrm{max}(A)$) se $\forall x \in A \; M \geq x$
+- $m \in A$ si dice minimo per $A$ ($m=\mathrm{min}(A)$) se $\forall x \in A \; m \leq x$
+
+### Estremo
+$A \subset \mathbb{R}, A \neq \emptyset$
+- $\bar{x} \in \mathbb{R}$ si dice estremo superiore di $A$ ($\bar{x}=\sup A$) se è il più piccolo dei maggioranti, ovvero $$\begin{flalign}\begin{cases}\forall x \in A\;\;x\leq \bar{x}\\ \forall\epsilon>0\;\exists x \in A:x-\epsilon<\bar{x}\end{cases} &&\end{flalign}$$
+- $\underline{x} \in \mathbb{R}$ si dice estremo inferiore di $A$ ($\underline{x}=\inf A$) se è il più grande dei minoranti, ovvero $$\begin{flalign}\begin{cases}\forall x \in A\;\;x\geq \underline{x}\\ \forall\epsilon>0\;\exists x \in A:x-\epsilon>\underline{x}\end{cases} &&\end{flalign}$$
+
 ### Disuguaglianza triangolare
 $\forall x_{1}, x_{2} \in \mathbb{R} \;\;\; |x_{1} + x_{2}| \leq |x_{1}| + |x_{2}|$
 ### Trasformazioni di funzioni
@@ -97,12 +119,13 @@ $$
 $$
 $$
 \begin{flalign}
-\lim_{ n \to +\infty }|a_{n}|=+\infty \implies \lim_{ n \to +\infty }\left( 1+\frac{1}{a_{n}} \right)^{n}=e&&
+\lim_{ n \to +\infty }|a_{n}|=+\infty \implies \lim_{ n \to +\infty }\left( 1+\frac{1}{a_{n}} \right)^{a_{n}}=e&&
 \end{flalign}
 $$
-- Permanenza del segno: $x_{n}\to l>0 \implies \exists \bar{n} : \forall n\geq \bar{n}, \; x_{n}>0$
-- Confronto: $a_{n} \to a, \; b_{n} \to b, \; \exists \bar{n} : \forall n \geq \bar{n}, \; a_{n}\leq b_{n} \implies a\leq b$
-- Due carabinieri: $a_{n} \to a, \; b_{n} \to b, \; \exists \bar{n} : a_{n}\leq c_{n}\leq b_{n} \implies c_{n} \to l$
+$$\begin{flalign}\alpha \in \mathbb{R} \;\;\; \lim_{ n \to +\infty }\left( 1+\frac{\alpha}{a_{n}} \right)^{a_{n}}=e^{\alpha}  &&\end{flalign}$$
+- Permanenza del segno: $x_{n}\to l>0 \implies \exists \bar{n} : \forall n\geq \bar{n} \; x_{n}>0$
+- Confronto: $a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} : \forall n \geq \bar{n} \; a_{n}\leq b_{n} \implies a\leq b$
+- Due carabinieri: $a_{n} \to a, \; b_{n} \to b \; \exists \bar{n} : a_{n}\leq c_{n}\leq b_{n} \implies c_{n} \to l$
 - Criterio del rapporto: $$\begin{flalign} \forall n \in \mathbb{N}, \; a_{n}>0&&\\ \frac{a_{n+1}}{a_{n}} \to l&& \end{flalign}$$
 	- $l>1 \implies a_{n}\to +\infty$
 	- $l<1 \implies a_{n}\to 0$

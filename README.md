@@ -3,3 +3,4 @@
 - [Funzioni](Funzioni.md)
 - [Trasformazioni di funzioni](Trasformazioni%20di%20funzioni.md)
 - [Numeri complessi](Numeri%20complessi.md)
+- [Successioni](Successioni.md)
