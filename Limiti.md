@@ -7,7 +7,7 @@ L'intorno di $+\infty$ è l'intervallo $\left( a,+\infty \right)=\{ x \in \mathb
 L'intorno di $-\infty$ è l'intervallo $\left(-\infty,a\right)=\{ x \in \mathbb{R}:x<a \}$
 
 # Punto di accumulazione
-$x_{0}\in \mathbb{R}$ si dice punto di accumulazione per $D$ se $\forall\delta>0\;\;\;(x_{0}-\delta,x_{0}+\delta)\cap D\setminus \{ x_{0} \}\neq \emptyset$, equivalentemente $\forall\delta>0\;\exists x \in D:0<|x-x_{o}|<\delta$
+$x_{0}$ si dice punto di accumulazione per $D$ se $\forall\delta>0\;\;\;(x_{0}-\delta,x_{0}+\delta)\cap D\setminus \{ x_{0} \}\neq \emptyset$, equivalentemente $\forall\delta>0\;\exists x \in D:0<|x-x_{o}|<\delta$
 
 # Limite finito in un punto
 $x_{o}$ punto di accumulazione per $D$
@@ -26,8 +26,8 @@ $$\begin{flalign}\exists \lim_{ x \to x_{0} }f(x)=l\in \mathbb{R} \iff \lim_{ x 
 
 # Funzione continua da destra o da sinistra
 $x_{0}\in D$
-Una funzione $f$ è continua da destra in $x_{0}$ $\lim_{ x \to x_{0}^{+} }f(x)=f(x_{0})$
-Una funzione $f$ è continua da sinistra in $x_{0}$ $\lim_{ x \to x_{0}^{-} }f(x)=f(x_{0})$
+Una funzione $f$ è continua da destra in $x_{0}\iff\lim_{ x \to x_{0}^{+} }f(x)=f(x_{0})$
+Una funzione $f$ è continua da sinistra in $x_{0}\iff\lim_{ x \to x_{0}^{-} }f(x)=f(x_{0})$
 
 # Limite infinito in un punto
 $x_{0}$ punto di accumulazione per $D$
