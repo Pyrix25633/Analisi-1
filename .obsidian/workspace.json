@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2acc3406532d21e1",
+        "id": "20f5599fa5625d08",
         "type": "tabs",
         "children": [
           {
-            "id": "e389d586b14b25b1",
+            "id": "18eb49e5cd369a0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Derivate.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Derivate"
             }
           }
         ]
@@ -73,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a0752b1c32768190",
@@ -159,19 +164,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e389d586b14b25b1",
+  "active": "18eb49e5cd369a0e",
   "lastOpenFiles": [
-    "Formulario formattato.md",
-    "Formulario.md",
-    "Limiti.md",
     "Formulario formattato.pdf",
+    "Formulario formattato.md",
     "Derivate.md",
+    "L2.md",
+    "L1.md",
+    "Funzioni trigonometriche.md",
+    "Pasted image 20241213155623.png",
+    "Pasted image 20241213161636.png",
+    "Pasted image 20241213161620.png",
+    "Pasted image 20241213161554.png",
+    "Pasted image 20241213161356.png",
+    "Pasted image 20241213161133.png",
+    "Pasted image 20241213161046.png",
+    "Pasted image 20241213161022.png",
+    "Pasted image 20241213160856.png",
+    "Pasted image 20241213160825.png",
+    "Formulario.md",
+    "Successioni.md",
+    "Limiti.md",
+    "Numeri complessi.md",
+    "Funzioni.md",
     "BiralMattia-BA01169065-consenso-privacy.pdf",
     "Proprietà delle funzioni continue.md",
-    "Successioni.md",
     "README.md",
-    "Funzioni.md",
-    "Numeri complessi.md",
     "Linguaggio matematico.md",
     "Trasformazioni di funzioni.md",
     "Sintesi.md",

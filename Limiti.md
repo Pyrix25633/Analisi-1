@@ -12,6 +12,8 @@ $x_{0}$ si dice punto di accumulazione per $D$ se $\forall\delta>0\;\;\;(x_{0}-\
 # Limite finito in un punto
 $x_{o}$ punto di accumulazione per $D$
 $l\in \mathbb{R}$ si dice limite di $f$ per $x\to x_{0}$ se $\forall\epsilon>0\;\exists\delta>0:\forall x \in(x_{0}-\delta,x_{0}+\delta)\cap D\setminus\{ x_{0} \}\;|f(x)-l|<\epsilon$
+e si indica con
+$$\begin{flalign}\lim_{ x \to x_{0} } f(x)=l &&\end{flalign}$$
 
 # Funzione continua
 $x_{0}\in D$

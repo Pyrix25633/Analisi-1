@@ -8,7 +8,7 @@ Convenzionalmente si chiamano le coppie $(0,y)\in \mathbb{R}^{2}$ numeri immagin
 In particolare il numero complesso $(0,1)$ è detto unità immaginaria e lo si denota con $i$
 
 ### Parte reale e parte immaginaria
-Se $x=(x,y)$ si indicano con
+Se $z=(x,y)$ si indicano con
 - $x=\mathrm{Re}(z)$ la parte reale di $z$
 - $y=\mathrm{Im}(z)$ la parte immaginaria di $z$
 Somma: $z_{1}+z_{2}=(x_{1},y_{2})+(x_{2},y_{2})=(x_{1}+x_{2},\;y_{1}+y_{2})$
@@ -26,7 +26,7 @@ $z=(x,y)=(x,0)+(0,y)=(x,0)+y(0,1)=x+iy$
 $\bar{z}=x-iy$
 
 ### Modulo
-$\mid z \mid = \sqrt{x^{2} + y^{2}}$
+$|z| = \sqrt{x^{2} + y^{2}}$
 
 ### Proprietà
 - $\overline{z+w}=\bar{z}+\bar{w}$
@@ -39,7 +39,7 @@ $\mid z \mid = \sqrt{x^{2} + y^{2}}$
 - $|z\cdot w|=|z|\cdot |w|$
 
 ### Reciproco
-$$\begin{flalign}z^{-1}=\frac{\bar{z}}{|z|} &&\end{flalign}$$
+$$\begin{flalign}z^{-1}=\frac{\bar{z}}{|z|^{2}} &&\end{flalign}$$
 
 # Forma trigonometrica
 Un punto si può individuare anche indicando la sua distanza dall'origine $\rho\geq 0$ e l'angolo formato con l'asse delle $x$ $\theta \in[0,2\pi)$
@@ -85,6 +85,6 @@ $$\begin{flalign}\begin{cases}
 \end{cases} &&\end{flalign}$$
 
 ### Teorema fondamentale dell'algebra
-Un'equazione di grado $n\geq_{1}$ in $\mathbb{C}$
+Un'equazione di grado $n\geq1$ in $\mathbb{C}$
 $a_{n}z^{n}+a_{n-1}z^{n-1}+{\dots}+a_{0},\;\;\; a_{k}\in C,\; a_{n}\neq0$
 ha esattamente $n$ soluzioni
