@@ -7,3 +7,7 @@
 - [Limiti](Limiti.md)
 - [Proprietà delle funzioni continue](Proprietà%20delle%20funzioni%20continue.md)
 - [Derivate](Derivate.md)
+- [Polinomi di Taylor](Polinomi%20di%20Taylor.md)
+- [Integrali](Integrali.md)
+- [Serie numeriche](Serie%20numeriche.md)
+- [Equazioni differenziali ordinarie](Equazioni%20differenziali%20ordinarie.md)
