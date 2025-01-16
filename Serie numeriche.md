@@ -21,6 +21,7 @@ $$\begin{flalign} \frac{1}{n(n+1)}=-\left( \frac{1}{n+1}-\frac{1}{n} \right)=b_{
 $$\begin{flalign}\lim_{ k \to +\infty } b_{k+1}=\lim_{ k \to +\infty } -\frac{1}{k+1}=0\implies &&\end{flalign}$$
 converge e
 $$\begin{flalign}\sum_{n=1}^{+\infty} \frac{1}{n(n+1)}=\lim_{ k \to +\infty } (b_{k+1}-b_{1})=0-(-1)=1 &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Serie logaritmica
 $$\begin{flalign}\sum_{n=1}^{+\infty} \ln\left( 1+\frac{1}{n} \right) &&\end{flalign}$$
@@ -49,6 +50,7 @@ $S_{k}$ è monotona crescente, infatti $S_{k+1}=\sum_{n=0}^{k+1}a_{n}=\sum_{n=0}
 $(a_{n})_{n},(b_{n})_{n}$ successioni a termini positivi, se $\exists n_{0}:a_{n}\leq b_{n}\;\;\forall n\geq n_{0}$ si ha che:
 - $\sum_{n=0}^{+\infty}b_{n}<+\infty\implies \sum_{n=0}^{+\infty}a_{n}<+\infty$
 - $\sum_{n=0}^{+\infty}a_{n}=+\infty\implies \sum_{n=0}^{+\infty}b_{n}=+\infty$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Criterio del confronto asintotico
 $(a_{n})_{n},(b_{n})_{n}$ successioni a termini positivi, se $\lim_{ n \to +\infty } \frac{a_{n}}{b_{n}}=1\implies$ sono asintotiche $a_{n}\sim b_{n}$ ovvero $a_{n}=b_{n}+o(b_{n})$ per $n\to +\infty$
@@ -74,6 +76,7 @@ La serie associata converge assolutamente se la serie associata al valore assolu
 
 # Serie a segni alterni
 Serie di Leibnitz: $$\begin{flalign}\sum_{n=1}^{+\infty} \frac{(-1)^{n+1}}{n} &&\end{flalign}$$ converge semplicemente ma non assolutamente
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Criterio di Leibnitz
 $(a_{n})_{n}$ monotona decrescente e infinitesima $\implies \sum_{n=0}^{+\infty}(-1)^{n}\cdot a_{n}$ è convergente

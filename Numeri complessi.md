@@ -27,6 +27,7 @@ $\bar{z}=x-iy$
 
 ### Modulo
 $|z| = \sqrt{x^{2} + y^{2}}$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Proprietà
 - $\overline{z+w}=\bar{z}+\bar{w}$

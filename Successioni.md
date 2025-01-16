@@ -30,6 +30,7 @@ $$
 (a+b)^{n}=\sum_{k=0}^{n} \binom{n}{k}\cdot a^{n-k}\cdot b^{k}&&
 \end{flalign}
 $$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Successione geometrica
 Dato $q\in R,\; q\neq0$ la successione geometrica di ragione $q$ è definita come la successione $a_{n}=q^{n}$
@@ -70,6 +71,8 @@ $$\begin{flalign}\exists \lim_{ n \to \infty } a_{n}=\mathrm{sup}\{ a_{i}:i\in \
 Analogamente, sia $a_{n}$ decrescente, allora
 
 $$\begin{flalign}\exists \lim_{ n \to \infty } a_{n}=\mathrm{inf}\{ a_{i}:i\in \mathbb{N},\; i\geq0 \} &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
+
 ### Successione di Nepero
 $a_{n}=\left( 1+\frac{1}{n} \right)^{n}$
 La successione di Nepero è strettamente crescente e limitata
@@ -106,6 +109,7 @@ $$\begin{flalign} \forall n \in \mathbb{N}, \; a_{n}>0&&\\ \frac{a_{n+1}}{a_{n}}
 - $l>1 \implies a_{n}\to +\infty$
 - $l<1 \implies a_{n}\to 0$
 - $l=0$ non si può concludere nulla
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Gerarchia di infiniti
 $\alpha>0,\; a>0$

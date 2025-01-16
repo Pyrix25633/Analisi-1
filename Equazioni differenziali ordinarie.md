@@ -26,6 +26,7 @@ ovvero la funzione $f(t,y(t))$ è del tipo $f(t,y)=a(t)\cdot b(y)$
 $\exists \bar{y}\in \mathbb{R}:b(\bar{y})=0\implies y(t)=\bar{y}$ è soluzione
 $\nexists \bar{y}\in \mathbb{R}:b(\bar{y})=0\implies$ $$\begin{flalign} \frac{y'(t)}{b(y(t))}=a(t)\implies \int \frac{y'(t)}{b(y(t))}\,dt=\int a(t)\,dt \implies z=y(t)\;\;dz=y'(t)dt &&\end{flalign}$$
 $$\begin{flalign}\int \frac{dz}{b(z)}=\int a(t)\,dt\implies B(z)=A(t)+c\implies y(t)=B^{-1}(A(t)+c) &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Equazioni lineari del primo ordine
 Sono equazioni della forma $a_{1}(t)y'(t)+a_{0}(t)y(t)=g(t)$, $a_{1}(t),a_{0}(t):I\to \mathbb{R}$ continue
@@ -41,6 +42,7 @@ $D[e^{A(t)}y(t)]=f(t)e^{A(t)}\;\;\;F(t)=\int e^{A(t)}f(t)\,dt\implies e^{A(t)}y(
 $y(t)=e^{-A(t)}(F(t)+c)$
 
 Sono dette equazioni lineari perché della forma $L(y(t))=f(t)$, $L(y(t))=y'(t)+ay(t)$ e $L(\lambda f+\mu g)=\lambda L(f)+\mu L(g)$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Equazioni lineari del secondo ordine
 Sono equazioni della forma $a_{2}(t)y''(t)+a_{1}(t)y'(t)+a_{0}(t)y(t)=g(t)$

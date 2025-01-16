@@ -21,6 +21,7 @@ Altre operazioni: per $x\to x_{0}$
 - $o(o(x^{n}))=o(x^{n})\;\;[o(x^{n}\cdot o(1))=x^{n}\cdot o(1)\cdot o(1)]$
 - $(o(x^{\alpha}))^{\beta}=o(x^{\alpha\cdot\beta})\;\;[(o(o(1)\cdot x^{\alpha}))^{\beta}=o(1)\cdot o(1)^{\beta}\cdot x^{\alpha\cdot\beta}]$
 - $o(x^{n}+o(x^{n}))=o(x^{n})\;\;[o(x^{n}+o(1)\cdot x^{n})=o(1)\cdot x^{n}\cdot o(1)\cdot o(1)\cdot x^{n}]$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Retta tangente come migliore approssimante affine
 $f:(a,b)\to \mathbb{R}$ derivabile in $x_{0}\in(a,b)$
@@ -48,6 +49,7 @@ Se $x_{0}=0$ il polinomio si dice polinomio di MacLaurin
 # Formula di Taylor con resto di Peano
 $f:(a,b)\to \mathbb{R}$ derivabile $n$ volte in $x_{0}\in(a,b)$
 $$\begin{flalign}f(x)=\sum_{k=0}^{n} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k}+o((x-x_{0})^{n}) &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Sviluppi di MacLaurin di alcune funzioni elementari
 $$\begin{flalign}e^{x}=\sum_{k=0}^{n} \frac{1}{k!}x^{k}+o(x^{n}) &&\end{flalign}$$

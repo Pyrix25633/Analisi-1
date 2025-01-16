@@ -28,6 +28,7 @@
 - Negazione di una proposizione contente quantificatori:
 	- $\neg(\forall x \in A, P(x)) \iff \exists x \in A : \neg P(x)$
 	- $\neg(\exists x \in A : P(x)) \iff\forall x \in A, \neg P(x)$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Maggiorante e minorante
 $A \subset \mathbb{R}, A \neq \emptyset$

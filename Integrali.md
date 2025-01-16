@@ -24,6 +24,7 @@ $$\begin{flalign}\int_{a}^b f(x)\,dx  &&\end{flalign}$$
 f_1(x),\;x \in[a,b] \\
 f_{2}(x),\;x \in(b,c]
 \end{cases} &&\end{flalign}$$ è integrabile
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Proprietà dell'integrale
 $f,g:[a,b]\to \mathbb{R}$ integrabili in $[a,b]$
@@ -45,6 +46,7 @@ Se $f$ è continua in $[a,b]\implies \exists x_{0}\in[a,b]: \frac{1}{b-a}\int_{a
 $f:[a,b]\to \mathbb{R}$ integrabile, $x_{0}\in[a,b]$
 La funzione integrale di $f$ con punto base $x_{0}$ è $F:[a,b]\to \mathbb{R}$
 $$\begin{flalign}F(x)=\int_{x_{0}}^{x} f(t)\,dt\;\;\forall x \in[a,b] &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Teorema fondamentale del calcolo integrale
 $f:[a,b]\to \mathbb{R}$ integrabile, $x_{0}\in[a,b]$
@@ -75,6 +77,7 @@ Si dice primitiva di $f$ in $I$ una qualunque funzione $G:I\to \mathbb{R}$ deriv
 Ogni funzione continua ammette una primitiva e
 - Se $G$ è una primitiva di $f\implies G+c$ è una primitiva di $f\;\;\forall c\in \mathbb{R}$
 - Se $G_{1}$ e $G_{2}$ sono primitive di $f\implies G_{1}-G_{2}=c\in \mathbb{R}$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Integrale indefinito
 L'integrale indefinito di $f$ è l'insieme di tutte le primitive di $f$
@@ -100,6 +103,7 @@ $$\begin{flalign}\int \frac{1}{\cos ^{2}(x)}\,dx=\tan(x)+c &&\end{flalign}$$
 $$\begin{flalign}\int 1+\tan ^{2}(x)\,dx=\tan (x)+c &&\end{flalign}$$
 $$\begin{flalign}\int \frac{1}{1+x^{2}}\,dx=\arctan(x)+c &&\end{flalign}$$
 $$\begin{flalign}\int \frac{1}{\sqrt{1-x^{2}}}\,dx=\arcsin(x)+c &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Formula di integrazione per sostituzione
 $f:I\to \mathbb{R}$, $F$ primitiva di $f$ in $I$
@@ -115,6 +119,7 @@ $f:[-a,a]\to \mathbb{R}$
 # Integrazione per parti
 $\int f'(x)g(x)\,dx=f(x)g(x)-\int f(x)g'(x)\,dx$
 $$\begin{flalign}\int_{a}^{b} f'(x)g(x)\,dx=[f(x)g(x)]_{a}^{b}-\int_{a}^{b} f(x)g'(x)\,dx &&\end{flalign}$$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Integrazione di funzioni razionali
 $n\geq0$, $m\geq1$
@@ -139,6 +144,7 @@ $f:[a,+\infty)\to \mathbb{R}$ integrabile in $[a,M]\;\;\forall M>a$
 L'integrale improprio o generalizzato di $f$ in $(a,+\infty)$ è
 $$\begin{flalign}\int_{a}^{+\infty} f(x)\,dx:=\lim_{ M \to +\infty } \int_{a}^{M} f(x)\,dx &&\end{flalign}$$
 Se il limite esiste finito $f$ è integrabile in senso generalizzato in $(a,+\infty)$ e l'integrale improprio è convergente, se il limite vale $\pm \infty$ l'integrale improprio è divergente
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Criterio del confronto
 $f,g:[a,b]\to \mathbb{R}$, $b\in(a,+\infty)$, $f,g$ integrabili in $[a,c]\;\;\forall c\in(a,b)$

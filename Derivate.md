@@ -66,6 +66,7 @@ $x_{0}$ è un punto critico per $f$ se $f'(x_{0})=0$
 # Teorema di Rolle
 $f:[a,b]\to \mathbb{R}$ continua su $[a,b]$ e derivabile su $(a,b)$
 $f(a)=f(b)\implies \exists c\in(a,b):f'(c)=0$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Teorema di Lagrange
 $f:[a,b]\to \mathbb{R}$ continua su $[a,b]$ e derivabile su $(a,b)$
@@ -96,6 +97,8 @@ $f'$ derivabile in $x_{0}\implies$
 $$\begin{flalign}f''(x_{0})=D^{2}[f(x_{0})]:=\lim_{ x \to x_{0} } \frac{f'(x)-f'(x_{0})}{x-x_{0}} &&\end{flalign}$$
 
 # Concavità
+<div class="page-break" style="page-break-before: always;"></div>
+
 ### Insiemi convessi
 $E\subset \mathbb{R}^{2}$ si dice convesso se il segmento che connette $p_{1},p_{2}\in E$ è tutto contenuto in $E$
 

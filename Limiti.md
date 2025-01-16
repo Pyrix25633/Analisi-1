@@ -30,6 +30,7 @@ $$\begin{flalign}\exists \lim_{ x \to x_{0} }f(x)=l\in \mathbb{R} \iff \lim_{ x 
 $x_{0}\in D$
 Una funzione $f$ è continua da destra in $x_{0}\iff\lim_{ x \to x_{0}^{+} }f(x)=f(x_{0})$
 Una funzione $f$ è continua da sinistra in $x_{0}\iff\lim_{ x \to x_{0}^{-} }f(x)=f(x_{0})$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Limite infinito in un punto
 $x_{0}$ punto di accumulazione per $D$
@@ -60,6 +61,7 @@ $$\begin{flalign}\lim_{ x \to x_{0} }g(f(x))=\lim_{ y \to y_{0} }g(y)  &&\end{fl
 $A\subset D$
 $f$ è continua in $A$ se $f$ è continua in $x_{0}\;\;\forall x_{0}\in A$
 In questo caso $f\in C^{0}(A)$
+<div class="page-break" style="page-break-before: always;"></div>
 
 # Discontinuità
 - Eliminabile in $x_{0}$ se esiste finito $$\begin{flalign}\lim_{ x \to x_{0} }f(x)\neq f(x_{0}) &&\end{flalign}$$
