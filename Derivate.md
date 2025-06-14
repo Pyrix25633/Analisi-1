@@ -45,7 +45,7 @@ $$\begin{flalign}(f^{-1})(y_{0})=\frac{1}{f'(x_{0})} &&\end{flalign}$$
 # Derivata del quoziente
 $f(x),g(x)$ derivabili in $x_{0}$ con $g(x_{0})\neq0$
 La funzione quoziente $\frac{f(x)}{g(x)}$ è derivabile in $x_{0}$ e
-$$\begin{flalign}\left( \frac{f}{g} \right)'(x_{0})=\frac{f'(x_{0})\cdot g(x_{0}) + f(x_{0})\cdot g'(x_{0})}{g(x_{0})^{2}} &&\end{flalign}$$
+$$\begin{flalign}\left( \frac{f}{g} \right)'(x_{0})=\frac{f'(x_{0})\cdot g(x_{0}) - f(x_{0})\cdot g'(x_{0})}{g(x_{0})^{2}} &&\end{flalign}$$
 
 # Derivate notevoli
 - $\mathrm{D}[a^{x}]=a^{x}\ln(a)$
