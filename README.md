@@ -1,4 +1,6 @@
 # Analisi 1
+
+### File obsidian
 - [Linguaggio matematico](Linguaggio%20matematico.md)
 - [Funzioni](Funzioni.md)
 - [Funzioni elementari](Funzioni%20elementari.md)
@@ -12,3 +14,18 @@
 - [Integrali](Integrali.md)
 - [Serie numeriche](Serie%20numeriche.md)
 - [Equazioni differenziali ordinarie](Equazioni%20differenziali%20ordinarie.md)
+
+### PDFs
+- [Linguaggio matematico](pdf/Linguaggio%20matematico.pdf)
+- [Funzioni](pdf/Funzioni.pdf)
+- [Funzioni elementari](pdf/Funzioni%20elementari.pdf)
+- [Trasformazioni di funzioni](pdf/Trasformazioni%20di%20funzioni.pdf)
+- [Numeri complessi](pdf/Numeri%20complessi.pdf)
+- [Successioni](pdf/Successioni.pdf)
+- [Limiti](pdf/Limiti.pdf)
+- [Proprietà delle funzioni continue](pdf/Proprietà%20delle%20funzioni%20continue.pdf)
+- [Derivate](pdf/Derivate.pdf)
+- [Polinomi di Taylor](pdf/Polinomi%20di%20Taylor.pdf)
+- [Integrali](pdf/Integrali.pdf)
+- [Serie numeriche](pdf/Serie%20numeriche.pdf)
+- [Equazioni differenziali ordinarie](pdf/Equazioni%20differenziali%20ordinarie.pdf)

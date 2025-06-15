@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trasformazioni di funzioni.md",
+                "file": "Numeri complessi.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trasformazioni di funzioni"
+              "title": "Numeri complessi"
             }
           },
           {
@@ -180,9 +180,9 @@
   },
   "active": "c442ed68b58827fc",
   "lastOpenFiles": [
-    "Funzioni elementari.md",
-    "Trasformazioni di funzioni.md",
     "README.md",
+    "Trasformazioni di funzioni.md",
+    "Funzioni elementari.md",
     "pdf/Funzioni elementari.pdf",
     "Funzioni.md",
     "Proprietà delle funzioni continue.md",
