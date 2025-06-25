@@ -124,7 +124,7 @@ f_{2}(x),\;x \in(b,c]
 > $\varphi:[\alpha,\beta]\to [a,b]$, $\varphi \in \mathrm{C}^{1}([\alpha,\beta])$
 > $(F\circ \varphi)'(t)=F'(\varphi(t))\cdot \varphi'(t)=f(\varphi(t))\cdot \varphi'(t)$
 > $$\begin{flalign}\int_{a}^{b} f(x)\,dx=F(\varphi(t))+c=\int_{\alpha}^{\beta} f(\varphi(t))\cdot \varphi'(t)\,dt &&\end{flalign}$$
-> con $x=\varphi(t)$, $\varphi'(t)\,dt=dx$
+> se $\varphi(\alpha)=a\land \varphi(\beta)=b$, con $x=\varphi(t)$, $\varphi'(t)\,dt=dx$
 
 # Simmetrie negli integrali
 > [!formule]
