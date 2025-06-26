@@ -9,7 +9,7 @@ $D\subset \mathbb{R},\;f:D\to \mathbb{R},\; x_{0}\in \mathbb{R}$
 
 # Punto di accumulazione
 > [!definizione]
-> $x_{0}$ si dice punto di accumulazione per $D$ se $(x_{0}-\delta,x_{0}+\delta)\cap D\setminus \{ x_{0} \}\neq \emptyset\;\;\forall\delta>0$, equivalentemente $\forall\delta>0\;\exists x \in D:0<|x-x_{o}|<\delta$
+> $x_{0}$ si dice punto di accumulazione per $D$ se $(x_{0}-\delta,x_{0}+\delta)\cap D\setminus \{ x_{0} \}\neq \emptyset\;\;\forall\delta>0$, equivalentemente $\exists x \in D\setminus \{ x_{0} \}:0<|x-x_{0}|<\delta\;\;\forall\delta>0$
 
 # Limite finito in un punto
 > [!definizione]
