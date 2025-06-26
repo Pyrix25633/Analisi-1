@@ -97,13 +97,16 @@ $$\begin{flalign}\lim_{ n \to +\infty }\left( 1+\frac{\alpha}{a_{n}} \right)^{a_
 > [!teorema] Permanenza del segno
 > $a_{n}\to l\in \mathbb{R}>0 \implies \exists \bar{n}\in \mathbb{N} :a_{n}>0\;\;\forall n\geq \bar{n}$
 
-> [!teorema] Confronto
-$a_{n} \to a\in \mathbb{R},$ $b_{n} \to b\in \mathbb{R}$
-$\exists \bar{n}\in \mathbb{N} :a_{n}\leq b_{n}\;\;\forall n \geq \bar{n} \implies a\leq b$
+> [!teorema] Teorema del confronto
+> $a_{n} \to a\in \mathbb{R},$ $b_{n} \to b\in \mathbb{R}$
+> Se $\exists \bar{n}\in \mathbb{N} :a_{n}\leq b_{n}\;\;\forall n \geq \bar{n} \implies a\leq b$
+> 
+> Se $\exists \bar{n}\in \mathbb{N}:|a_{n}|\leq b_{n}\;\;\forall n\geq \bar{n}\land b_{n}\to0\implies a_{n}\to0$
+> Se $a_{n}\to0$ e $b_{n}$ è limitata (non necessariamente convergente) $\implies a_{n}\cdot b_{n}\to0$
 
-> [!teorema] Due carabinieri
-$a_{n} \to l\in \mathbb{R}$, $b_{n} \to l\in \mathbb{R}$
-$\exists \bar{n}\in \mathbb{N} :a_{n}\leq c_{n}\leq b_{n}\;\;\forall n\geq \bar{n} \implies c_{n} \to l$
+> [!teorema] Teorema dei due carabinieri
+> $a_{n} \to l\in \mathbb{R}$, $b_{n} \to l\in \mathbb{R}$
+> Se $\exists \bar{n}\in \mathbb{N} :a_{n}\leq c_{n}\leq b_{n}\;\;\forall n\geq \bar{n} \implies c_{n} \to l$
 
 ### Algebra dei limiti finiti
 > [!formule]
@@ -123,7 +126,7 @@ $\exists \bar{n}\in \mathbb{N} :a_{n}\leq c_{n}\leq b_{n}\;\;\forall n\geq \bar{
 > $$\begin{flalign} \forall n \in \mathbb{N}, \; a_{n}>0&&\\ \frac{a_{n+1}}{a_{n}} \to l&& \end{flalign}$$
 > - $l>1 \implies a_{n}\to +\infty$
 > - $l<1 \implies a_{n}\to 0$
-> - $l=0$ non si può concludere nulla
+> - $l=1$ non si può concludere nulla
 
 ### Gerarchia di infiniti
 > [!teorema]
