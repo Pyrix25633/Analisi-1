@@ -53,8 +53,8 @@ e si indica con
 > $$\begin{flalign}\lim_{ x \to +\infty }f(x)=+\infty \iff \forall M>0\;\exists k>0:\forall x \in(k,+\infty)\cap D\;\;f(x)>M &&\end{flalign}$$
 > $$\begin{flalign}\lim_{ x \to +\infty }f(x)=-\infty \iff \forall M>0\;\exists k>0:\forall x \in(k,+\infty)\cap D\;\;f(x)<-M &&\end{flalign}$$
 > $D$ illimitato inferiormente ($\forall k>0\;\exists x \in D:x<-k$)
-> $$\begin{flalign}\lim_{ x \to -\infty }f(x)=l\in \mathbb{R} \iff \forall\epsilon>0\;\exists k>0:\forall x \in(-\infty,k)\cap D\;\;|f(x)-l|<\epsilon &&\end{flalign}$$
-> $$\begin{flalign}\lim_{ x \to -\infty }f(x)=+\infty \iff \forall M>0\;\exists k>0:\forall x \in(-\infty,k)\cap D\;\;f(x)>M &&\end{flalign}$$$$\begin{flalign}\lim_{ x \to -\infty }f(x)=+\infty \iff \forall M>0\;\exists k>0:\forall x \in(-\infty,k)\cap D\;\;f(x)<-M &&\end{flalign}$$
+> $$\begin{flalign}\lim_{ x \to -\infty }f(x)=l\in \mathbb{R} \iff \forall\epsilon>0\;\exists k>0:\forall x \in(-\infty,-k)\cap D\;\;|f(x)-l|<\epsilon &&\end{flalign}$$
+> $$\begin{flalign}\lim_{ x \to -\infty }f(x)=+\infty \iff \forall M>0\;\exists k>0:\forall x \in(-\infty,-k)\cap D\;\;f(x)>M &&\end{flalign}$$$$\begin{flalign}\lim_{ x \to -\infty }f(x)=+\infty \iff \forall M>0\;\exists k>0:\forall x \in(-\infty,-k)\cap D\;\;f(x)<-M &&\end{flalign}$$
 
 # Cambio di variabili
 > [!teorema]
